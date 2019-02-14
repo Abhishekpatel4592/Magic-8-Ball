@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         newBallImage()
     }
     
+    //Function 
     func newBallImage(){
         randonBallNumber = Int(arc4random_uniform(4))
         imageView.image = UIImage.init(named: ballArray[randonBallNumber])
